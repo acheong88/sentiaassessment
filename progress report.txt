@@ -1,0 +1,26 @@
+9/7/2019
+
+19:06 - just receive a free account with username and password to start working on Sentia Assessment test
+
+20:00 - Start off by deciding on various tags to use for various resources
+21:00 - create the An Azure Datalake Gen 2 storage account
+21:15 - start working on keyvault with secret (researchign ways to export this later; knowing that the azure policies dont allow this ootb)
+21:30 - create a key vault with a secret
+
+9/8/2019
+
+14:00 - starting kind of late due to outage emergency at worksite. starting up portal and cross checking assessment list
+14:30 - researching on the three type of load balances and which to use. Decide to move over creating a standalone vnet because it has to be created nevertheless when busy with setting up load balancer.
+15:30 - setting up web app in exisiting storage account and opting to run powershell to assign keyvault access policy to web app 
+17:09 - going to use application gateway as the load balancer for the web app; deciding hwo to setup front end and backend
+18:00 - facing a 502 bad gateway error from balancer
+18:30 - contemplating possible implementation of azure load balancer(classic) and pursue web app vnet (??)
+19:00 - finally fix listeners
+19:05 - web app resolving with both FQDN and IP through Application gateway
+19:30 - brainstoriming how to export keyvault policies 
+
+9/9/2019
+
+06:00 - testing out keyvault policies
+07:00 - reviewing template in Visual Studio Code
+09:00 - uploading templates and imfo to Github
